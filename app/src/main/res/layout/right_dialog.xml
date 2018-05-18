@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_right_dialog"
+    android:paddingBottom="24dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:layout_marginTop="10dp"
+    android:paddingTop="24dp">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10：00来我办公室"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_below="@id/title"
+        android:text="2018年03月01日10:05:26"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
