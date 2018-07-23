@@ -18,8 +18,10 @@
 package tv.danmaku.ijk.media.player.pragma;
 
 import java.util.Locale;
+import java.util.StringJoiner;
 
 
+import android.content.SharedPreferences;
 import android.util.Log;
 
 @SuppressWarnings({"SameParameterValue", "WeakerAccess"})
@@ -29,6 +31,7 @@ public class DebugLog {
     public static final boolean ENABLE_WARN = Pragma.ENABLE_VERBOSE;
     public static final boolean ENABLE_DEBUG = Pragma.ENABLE_VERBOSE;
     public static final boolean ENABLE_VERBOSE = Pragma.ENABLE_VERBOSE;
+
 
     public static void e(String tag, String msg) {
         if (ENABLE_ERROR) {

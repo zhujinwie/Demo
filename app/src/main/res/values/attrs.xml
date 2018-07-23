@@ -5,4 +5,9 @@
         <attr name="color2" format="reference|color"/>
         <attr name="color3" format="reference|color"/>
     </declare-styleable>
+
+    <declare-styleable name="WHImageView">
+        <attr name="ratio_w_h" format="float"/>
+    </declare-styleable>
+
 </resources>

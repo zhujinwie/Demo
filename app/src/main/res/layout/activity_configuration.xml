@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="zsy.jt.com.demo.ui.activity.ConfigurationActivity">
+    tools:context="zsy.jt.com.cct2.ui.activity.ConfigurationActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -96,7 +96,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="设置横屏"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+
+                    />
 
                 <android.support.v7.widget.SwitchCompat
                     android:id="@+id/switch_btn"
@@ -105,7 +107,9 @@
                     android:layout_alignParentRight="true"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="12dp" />
+                    android:layout_marginRight="12dp"
+                    android:clickable="false"
+                    />
 
             </RelativeLayout>
 
@@ -143,7 +147,7 @@
                     android:id="@+id/config6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="视频模式"
+                    android:text="视频模式(必选)"
                     android:textSize="30sp" />
 
                 <android.support.v7.widget.SwitchCompat
@@ -153,7 +157,9 @@
                     android:layout_alignParentRight="true"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="12dp" />
+                    android:layout_marginRight="12dp"
+                    android:checked="false"
+                    />
 
             </RelativeLayout>
 
